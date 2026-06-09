@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int i, j,a=64;
+    for(i=1;i<6;i++)
+    {
+        a++;
+        for(j=0;j<i;j++)
+        {
+            printf(" %c ",a);
+        }
+        
+        printf("\n");
+    }
+    return 0;
+}
